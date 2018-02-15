@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(Bg-Wrap.jpg) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 600px;
+
+	margin: 0 auto;
+	padding-bottom: 28%;
+}
+
+.content h1 {
+	font-family: Anton, sans-serif;
+	font-size: 350%;
+	font-weight: 200;
+	line-height: 100%;
+	color: #141d16;
+	margin: 1%;
+	padding-right: 10%;
+	position: relative;
+	left: -5%;
+}
+
+.content hr {
+	padding-left: 30%;
+	size: 10px;
+	height: 3px;
+	background: #343d46;
+	border: none;
+	position: relative;
+	left: -5%;
+}
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
