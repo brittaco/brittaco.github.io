@@ -31,6 +31,14 @@ nav.navbar .logo {
 nav.navbar .logo img {
 	height: 80px;
 	transition: 0.5s;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+.inner-bar{
+    width: 95%;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 nav.navbar ul {
