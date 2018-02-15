@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
+img {
+	max-width: 100%;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
