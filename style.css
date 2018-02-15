@@ -17,6 +17,7 @@ nav {
 	padding: 10px 100px;
 	box-sizing: border-box;
 	transition: .5s;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav .logo {
@@ -117,3 +118,4 @@ nav ul li a:hover {
 @media screen and (max-width: 480px) {
 
 }
+op
