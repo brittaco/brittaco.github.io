@@ -36,6 +36,7 @@ nav.navbar .logo img {
 }
 
 .inner-bar{
+		box-sizing: border-box;
     width: 95%;
     max-width: 1250px;
     margin: 0 auto;
@@ -132,13 +133,16 @@ nav.navbar ul li a:hover {
 
 }
 .footerRight {
-	width: 100%;
-	background: black;
+	background: rgba(0, 0, 0, 1);
 	margin: 0;
 	float: left;
 	text-decoration: none;
 	color: #bbb;
 	font-size: 10px;
 	box-sizing: border-box;
-
+	position: static;
+	width:100%;
+	top: -webkit-calc(100% - 50px);
+	top: -moz-calc(100% - 50px);
+	top: calc(100% - 50px);
 }
