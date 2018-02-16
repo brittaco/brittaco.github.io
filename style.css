@@ -10,7 +10,11 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+}
+
+.header	 {
 	background: url(img/Bg-Wrap.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 
 nav.navbar {
@@ -119,11 +123,16 @@ nav.navbar ul li a:hover {
 	border: none;
 	position: relative;
 	left: -4%;
-	down 50px;
 }
 
-.wrapper {
-	min-height: 100vh;
+#sbout {
+	min-height: 400px;
+}
+
+.transition {
+	min-height: 450px;
+	background: url(https://images.unsplash.com/photo-1484588168347-9d835bb09939?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=82be6fdcdd8e679a3c9d9dcee4faad37) no-repeat center center fixed;
+	background-size: cover;
 }
 
 /*--- Media Queries --*/
