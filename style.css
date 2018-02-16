@@ -10,6 +10,7 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	background: url(img/Bg-Wrap.jpg) no-repeat center center fixed;
 }
 
 nav.navbar {
@@ -132,6 +133,11 @@ nav.navbar ul li a:hover {
 @media screen and (max-width: 480px) {
 
 }
+
+.about img {
+
+}
+
 .footerRight {
 	background: rgba(0, 0, 0, 1);
 	margin: 0;
