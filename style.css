@@ -122,6 +122,9 @@ nav.navbar ul li a:hover {
 	down 50px;
 }
 
+.wrapper {
+	min-height: 100vh;
+}
 
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
