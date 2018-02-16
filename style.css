@@ -15,6 +15,7 @@ html, body {
 .header	 {
 	background: url(img/Bg-Wrap.jpg) no-repeat center center fixed;
 	background-size: cover;
+	height: 100vh;
 }
 
 nav.navbar {
@@ -126,11 +127,11 @@ nav.navbar ul li a:hover {
 }
 
 #sbout {
-	min-height: 400px;
+	height: 100vh;
 }
 
 .transition {
-	min-height: 450px;
+	height: 100vh;
 	background: url(https://images.unsplash.com/photo-1484588168347-9d835bb09939?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=82be6fdcdd8e679a3c9d9dcee4faad37) no-repeat center center fixed;
 	background-size: cover;
 }
