@@ -147,8 +147,23 @@ nav.navbar ul li a:hover {
 
 }
 
-.about img {
 
+div.container{
+  max-width: 500px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	background-image: url("http://uploads.webflow.com/5a85714a3b54f10001f51ba8/5a857f2e3aa1e00001eb7c3a_00-lede-prince-george-4th-birthday-portrait.jpg");
+	background-position: 50% -20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
 }
 
 .footerRight {
@@ -164,4 +179,3 @@ nav.navbar ul li a:hover {
 	top: -webkit-calc(100% - 50px);
 	top: -moz-calc(100% - 50px);
 	top: calc(100% - 50px);
-}
