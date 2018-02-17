@@ -1,181 +1,120 @@
-@import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
-
-img {
-	max-width: 100%;
+body{
+  width: 100%;
 }
-
-html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
+/*
+*{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
 }
-
-.header	 {
-	background: url(img/Bg-Wrap.jpg) no-repeat center center fixed;
-	background-size: cover;
-	height: 100vh;
+*/
+*{
+  margin: 0px;
+  padding: 0px;
 }
-
-nav.navbar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100px;
-	padding: 10px 100px;
-	box-sizing: border-box;
-	transition: .5s;
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
-nav.navbar .logo {
-	float: left;
-}
-
-nav.navbar .logo img {
-	height: 80px;
-	transition: 0.5s;
-	border-radius: 50%;
-	border: 2px solid #fff;
-}
-
-.inner-bar{
-		box-sizing: border-box;
-    width: 95%;
-    max-width: 1250px;
-    margin: 0 auto;
-}
-
-nav.navbar ul {
-	float: right;
-	margin: 0;
-	padding: 0;
-	display: flow;
-}
-
-nav.navbar ul li {
-	list-style: none;
-	display: inline;
-
-}
-
-nav.navbar ul li a {
-	line-height: 80px;
-	color: white;
-	padding: 5px 20px;
-	font-size: 120%;
-	text-decoration: none;
-	text-transform: uppercase;
-	transition: .5s;
-	font-family: Montserrat;
-}
-
-nav.navbar ul li a:active,
-nav.navbar ul li a:hover {
-	color: #fff;
-	background: #f00;
-}
-
-
-.intro {
-	height: 100%;
-	width: 100%;
-	margin: auto;
-	background: url(img/Bg-Wrap.jpg) no-repeat 50% 50%;
-	display: table;
-	top: 0;
-	background-size: cover;
-}
-
-.intro .inner {
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	max-width: none;
-}
-
-.content {
-	max-width: 600px;
-	transform: translateY(100px);
-	margin: 0 auto;
-	padding-bottom: 28%;
-}
-
-.content h1 {
-	font-family: Anton, sans-serif;
-	font-size: 350%;
-	font-weight: 200;
-	line-height: 100%;
-	color: white;
-	margin: 1%;
-	padding-right: 10%;
-	position: relative;
-	left: -5%;
-	down: 50px;
-}
-
-.content hr {
-	padding-left: 30%;
-	size: 10px;
-	height: 3px;
-	background: white;
-	border: none;
-	position: relative;
-	left: -4%;
-}
-
-#sbout {
-	height: 100vh;
-}
-
-.transition {
-	height: 100vh;
-	background: url(https://images.unsplash.com/photo-1484588168347-9d835bb09939?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=82be6fdcdd8e679a3c9d9dcee4faad37) no-repeat center center fixed;
-	background-size: cover;
-}
-
-/*--- Media Queries --*/
-@media screen and (max-width: 900px) {
-
-}
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 480px) {
-
-}
-
 
 div.container{
   max-width: 500px;
-  height: 100vh;
+  height: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-	box-sizing: border-box;
-	width: 100%;
-	height: 100vh;
-	background-image: url("http://uploads.webflow.com/5a85714a3b54f10001f51ba8/5a857f2e3aa1e00001eb7c3a_00-lede-prince-george-4th-birthday-portrait.jpg");
-	background-position: 50% -20px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
 }
 
-.footerRight {
-	background: rgba(0, 0, 0, 1);
-	margin: 0;
-	float: left;
-	text-decoration: none;
-	color: #bbb;
-	font-size: 10px;
-	box-sizing: border-box;
-	position: static;
-	width:100%;
-	top: -webkit-calc(100% - 50px);
-	top: -moz-calc(100% - 50px);
-	top: calc(100% - 50px);
+div.contentBox{
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.section{
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100vh;
+  min-height: 550px;
+  width: auto;
+}
+
+#home{
+  background-image: url(Bg-wrap.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#work{
+  background-image: url(photo-1484588168347-9d835bb09939.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#work2{
+  background-image: url(turret-arch-1364314_960_720.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#work3{
+  background-image: url(maxresdefault.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#contact,#about{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#footer{
+  height: 50vh;
+  background-color: #000000;
+}
+
+header{
+  font-family: Gilroy, Monserrat, Roboto, Sans-Serif;
+  font-weight: bold;
+}
+
+header.intro{
+  font-size: 70px; /* 100? */
+  color: white
+}
+
+header.p {
+  font-size: 50px; /* 30? */
+}
+
+img{
+  margin-bottom: 50px;
+}
+
+img.navbar{
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+div.navbar{
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 1px;
+  width: 70px;
+  height: 70px;
+}
